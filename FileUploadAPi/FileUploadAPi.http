@@ -1,0 +1,8 @@
+< {%
+    request.variables.set("host", "http://localhost:5084")
+%}
+
+GET {{host}}/fileupload/
+Accept: application/json
+
+###
